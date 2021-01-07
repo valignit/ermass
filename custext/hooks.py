@@ -85,9 +85,6 @@ doc_events = {
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 #	}
-  "Sales Order": {
-                "on_submit": "erpnext.selling.doctype.sales_order.sales_order.make_so_payment_entry"
-  }
 }
 
 # Scheduled Tasks
